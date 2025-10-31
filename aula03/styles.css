@@ -1,0 +1,13 @@
+body {
+    font: 12pt arial;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+button {
+    font-size: 12pt;
+    padding: 30px;
+}
