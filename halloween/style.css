@@ -1,0 +1,13 @@
+body {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.5s, 0.5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+body.light-off {
+    background-image: url(novas-variantes-de-zumbis-serao-introduzidas-em-walking-dead-afirma-criadora.jpg);
+    color: whitesmoke;
+
+}
