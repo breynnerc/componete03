@@ -1,0 +1,26 @@
+body {
+    font: 12pt arial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    background-color: beige;
+}
+
+button {
+    font-size: 12pt;
+    padding: 30px;
+    border: solid 3px black;
+    border-radius: 10px 0 10px 0;
+}
+
+h1 {
+    background-color: lightskyblue;
+}
+
+section {
+    background-color: rgba(187, 203, 46, 0.713);
+    width: 600px;
+    margin-left: 20em;
+    border: 1px;
+    border-radius: 10px;
+}
