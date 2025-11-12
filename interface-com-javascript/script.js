@@ -10,7 +10,7 @@ const numberIndicator = document.querySelector('.numbers')
 
 const list = document.querySelector('.list')
 
-let active = 0
+let active = 0 
 
 const total = items.length
 
@@ -38,9 +38,20 @@ items [active].classList.add('active')
 
 dots [active].classList.add('active')
 
-numberIndicator.textContent = String(active + 1)
+numberIndicator.textContent = String(active + 1).padStart(2, '0') 
 }
 
 prevButton.addEventListener('click', function(){
-    update(-1)
+    update(-1) 
+
+})
+
+clearInterval(timer)
+setInterval(() => {
+    update(1)
+},1000 )
+
+nextButton.addEventListener('click', function(){
+    update(1) 
+
 })
